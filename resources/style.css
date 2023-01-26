@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: hsl(223, 74%, 12%);
     font-size: 16px;
@@ -151,4 +155,50 @@ a:hover {
     line-height: 16px;
     padding: 7px 0;
     font-size: 22px;
+}
+
+main {
+    position: relative;
+    padding-left: 8rem;
+    color:hsl(240, 7%, 97%)
+}
+
+#home {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 5rem;
+}
+
+
+.home-container {
+    display: block;
+    padding-right: 1rem;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.home-container h2 {
+    font-size: 4rem;
+}
+
+.first-name {
+    padding-left: 5rem;
+}
+
+.last-name{
+    padding-left: 10rem;
+}
+
+p {
+    text-align: center;
+}
+
+#sun {
+    height: 30rem;
+    width: auto;
 }
